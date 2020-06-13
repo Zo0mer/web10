@@ -1,0 +1,40 @@
+/* Header, footer */
+header, footer {
+  background-color: rgb(213, 166, 242);
+}
+
+body{
+  background-image: url("../img/1.jpg");
+}
+
+#About{
+  background-color: rgb(242, 182, 247);
+}
+#POSTS{
+  background-color: rgb(111, 215, 238);
+}
+nav {
+  background-color: #d33adb;
+}
+
+/* Navbar */
+
+.navbar-brand {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav-link, .dropdown-item {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+nav li {
+  padding: 0 18px;
+}
+
+nav li.active, nav li.active:before {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
